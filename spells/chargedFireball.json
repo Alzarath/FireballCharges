@@ -1,0 +1,12 @@
+{
+	"name": "Fireball",
+	"id": "chargedFireball",
+	"description": "Quick cooldown and packs a punch. Good old trusty fireball. Placed on a 1.5 second cooldown after casting twice or waiting 3 seconds between casts.",
+	"action": "projectile",
+	"color": "#f80",
+	"icon": "thunderball",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 2,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:chargedFireball"
+}

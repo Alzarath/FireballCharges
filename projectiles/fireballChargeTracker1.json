@@ -1,0 +1,39 @@
+{
+	"speed": -5,
+	"categories": 128,
+	"radius": 0.05,
+	"collideWith": 128,
+	"maxTicks": 180,
+	"behaviours": [
+		{
+			"type": "strafe"
+		},
+		{
+			"type": "spawn",
+			"trigger": {
+				"collideWith": 128
+			},
+			"projectile": "ProjectileTemplate:fireballChargeTracker2",
+			"expire": true
+		},
+		{
+			"type": "spawn",
+			"trigger": {
+				"afterTicks": 180
+			},
+			"projectile": "ProjectileTemplate:fireballChargeTracker2",
+			"expire": true,
+			"requireParent": true
+		},
+		{
+			"type": "homing",
+			"trigger": {
+				"afterTicks": 1
+			},
+			"targetType": "self",
+			"newSpeed": 10,
+			"revolutionsPerSecond": 5
+		}
+	],
+	"renderers": []
+}

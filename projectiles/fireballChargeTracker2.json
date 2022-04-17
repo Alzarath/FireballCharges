@@ -1,0 +1,17 @@
+{
+	"categories": 128,
+	"collideWith": 0,
+	"maxTicks": 1,
+	"projectileBuffs": [
+		{
+			"type": "cooldown",
+			"owner": true,
+			"adjustCooldown": 90,
+			"maxCooldown": 90,
+			"spellIds": [
+				"chargedFireball"
+			]
+		}
+	],
+	"renderers": []
+}

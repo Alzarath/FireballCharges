@@ -1,0 +1,21 @@
+{
+	"Options": {
+		"q": [
+			[
+				"chargedFireball",
+				"flamestrike"
+			],
+			[
+				"difire"
+			],
+			[
+				"retractor",
+				"backlash"
+			],
+			[
+				"whip",
+				"phaseOrb"
+			]
+		]
+	}
+}
